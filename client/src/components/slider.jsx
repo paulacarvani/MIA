@@ -2,6 +2,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material"
 import { useState } from "react";
 import styled from "styled-components"
 import { sliderItems } from "../data"
+import axios from "axios"
 
 const Container = styled.div `
     width: 100%;
@@ -103,7 +104,9 @@ const Slider = () => {
                         <InfoContainer>
                             <Title>{item.title}</Title>
                             <Desc>{item.desc}</Desc>
-                            <Button>Leamos un cuento</Button>
+                            <Button onClick={() =>{
+                                Promise.all([axios.get(item.url)]).then().catch()
+                            }}>Leamos un cuento</Button>
                         </InfoContainer>
                     </Slide>
                 ))}

@@ -11,6 +11,21 @@ export const sliderItems = [
         img:"https://i.ibb.co/0qRJB7T/Whats-App-Image-2023-05-08-at-1-25-28-PM.jpg",
         title: "Aprendamos juntos a Leer",
         desc: "¿Quieres que leamos un cuento?",
+        url: "http://localhost:5000/read"
+    },
+    {
+        id: 2,
+        img:"https://i.ibb.co/MRBd92P/Juguemos.jpg",
+        title: "Piedra, Papel o Tijera",
+        desc: "¿Ya conoces este juego?",
+        url: "http://localhost:5000/read"
+    },
+    {
+        id: 3,
+        img:"https://i.ibb.co/0qRJB7T/Whats-App-Image-2023-05-08-at-1-25-28-PM.jpg",
+        title: "Dibujemos Juntos",
+        desc: "Vamos a Dibujar!",
+        url: "http://localhost:5000/read"
     }
 ];
 
