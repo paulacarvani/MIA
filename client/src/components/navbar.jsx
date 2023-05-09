@@ -2,62 +2,35 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    height: 60px;
+    height: 100px;
+    background-image: url('https://img.freepik.com/vector-gratis/dia-nino-dibujado-mano-fondo-espanol_23-2149299345.jpg?w=740&t=st=1683597715~exp=1683598315~hmac=7a36ef9f02c38e198370db4fc6fa33c848b55daeabcd7b7647777f78c9beaa2d');
 `;
 
 const Wrapper =styled.div`
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-`;
-
-const Left = styled.div`
-    flex: 1;
+    padding: 50px 50px;
     display: flex;
     align-items: center;
 `;
 
-// const Language = styled.span`
-//     font-size: 14px;
-//     cursor: pointer;
-// `;
 
-
-const Center = styled.div`
-    flex: 1;
-    text-align: center;
-`;
-
-const Logo = styled.h1`
-    font-weight: bold;
-`;
-
-const Right = styled.div`
-    flex: 1%;
+const Logo = styled.div`
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    color: #4DCDD1;
+    text-shadow: 1px 1px #fff;
 `;
 
-// const MenuItem = styled.div`
-//     font-size: 14px;
-//     cursor: pointer;
-//     margin-left: 25px;
-// `;
 
 const Navbar = () => {
     return (
     <Container>
         <Wrapper>
-            <Left>
-            </Left>
-            <Center>
-                <Logo>Hola! Soy MIA</Logo>
-                <h2>Tu primer Inteligencia Artifial</h2>
-            </Center>
-            <Right>
-            </Right>
+            <Logo><img src = 'https://i.ibb.co/mGKY5mY/MIALogo.png' />Tu primera Inteligencia Artificial</Logo>
         </Wrapper>
     </Container>
     )

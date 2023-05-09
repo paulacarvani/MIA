@@ -11,6 +11,8 @@ const Container = styled.div`
 `;
 
 const Name = styled.h1`
+    font-size: 2rem;
+    color: #4DCDD1;
 `;
 
 const Desc = styled.p`
@@ -46,7 +48,7 @@ const Footer = () => {
             <SocialIcon color="3B5999">
                 <Facebook/>
             </SocialIcon>
-            <SocialIcon color="E4405F">
+            <SocialIcon color="E4405F" >
                 <Instagram/>
             </SocialIcon>
             <SocialIcon color="128c7e">

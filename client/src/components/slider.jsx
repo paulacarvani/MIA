@@ -47,10 +47,11 @@ const Slide = styled.div`
     `;
 
 const ImgContainer = styled.div`
-    height: 70%;
+    height: 68%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: papayawhip;
 `;
 
 const Image = styled.img`
@@ -58,8 +59,10 @@ const Image = styled.img`
 `;
 
 const InfoContainer =styled.div`
+    height: 53%;
     flex: 1;
     padding: 50px;
+    background: papayawhip;
 `;
 
 const Title = styled.h1`
