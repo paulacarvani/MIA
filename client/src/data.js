@@ -25,7 +25,7 @@ export const sliderItems = [
         img:"https://i.ibb.co/5v9XmTp/Gafas.jpg",
         title: "Dibujemos Juntos",
         desc: "Vamos a Dibujar!",
-        url: "http://localhost:5000/api"
+        url: "http://localhost:5000/paint"
     }
 ];
 
