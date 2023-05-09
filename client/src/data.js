@@ -15,17 +15,17 @@ export const sliderItems = [
     },
     {
         id: 2,
-        img:"https://i.ibb.co/MRBd92P/Juguemos.jpg",
+        img:"https://i.ibb.co/mt6d71k/Angelitos.jpg",
         title: "Piedra, Papel o Tijera",
         desc: "¿Ya conoces este juego?",
-        url: "http://localhost:5000/read"
+        url: "http://localhost:5000/play"
     },
     {
         id: 3,
-        img:"https://i.ibb.co/0qRJB7T/Whats-App-Image-2023-05-08-at-1-25-28-PM.jpg",
+        img:"https://i.ibb.co/5v9XmTp/Gafas.jpg",
         title: "Dibujemos Juntos",
         desc: "Vamos a Dibujar!",
-        url: "http://localhost:5000/read"
+        url: "http://localhost:5000/api"
     }
 ];
 

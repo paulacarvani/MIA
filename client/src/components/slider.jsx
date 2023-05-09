@@ -106,7 +106,7 @@ const Slider = () => {
                             <Desc>{item.desc}</Desc>
                             <Button onClick={() =>{
                                 Promise.all([axios.get(item.url)]).then().catch()
-                            }}>Leamos un cuento</Button>
+                            }}>¡Vamos!</Button>
                         </InfoContainer>
                     </Slide>
                 ))}
