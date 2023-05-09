@@ -8,6 +8,9 @@ app.get("/api", (req, res) => {
 app.get("/read", (req, res) => {
     read()
 })
+app.get("/play", (req, res) => {
+    play()
+})
 
 app.listen(5000, () => {
     console.log("Server started on port 5000")
