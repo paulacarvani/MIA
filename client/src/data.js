@@ -20,13 +20,13 @@ export const sliderItems = [
         desc: "¿Ya conoces este juego?",
         url: "http://localhost:5000/play"
     },
-    {
-        id: 3,
-        img:"https://i.ibb.co/5v9XmTp/Gafas.jpg",
-        title: "Dibujemos Juntos",
-        desc: "Vamos a Dibujar!",
-        url: "http://localhost:5000/paint"
-    }
+    // {
+    //     id: 3,
+    //     img:"https://i.ibb.co/5v9XmTp/Gafas.jpg",
+    //     title: "Dibujemos Juntos",
+    //     desc: "Vamos a Dibujar!",
+    //     url: "http://localhost:5000/paint"
+    // }
 ];
 
 export const popularProducts = [
