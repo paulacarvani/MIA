@@ -3,7 +3,7 @@ const spawn = require("child_process").spawn;
 function play() {
 
     const child = spawn('/bin/python3',
-        ['/home/holbertonpc/Documents/Holbie/mia/server/functions/python/play/play.py']);
+        ['/home/holbertonpc/Documents/Holbie/mia/server/functions/python/play/juego.py']);
 
     child.stdout.on('data', (data) => {
         console.log(`stdout:\n${data}`);
