@@ -35,3 +35,32 @@ MIA is a web application developed using React on the frontend, Styled Component
     + cd mia/client npm install
 
     + cd ../mia/server npm install
+
+3. Start the backend server.
+    + cd mia/server
+    + npm run start
+
+4. Start the frontend application in a new terminal.
+    + cd mia/client
+    + npm start
+
+
+5. Open your web browser and visit http://localhost:3000 to access the MIA application.
+
+## Contribution
+
+If you would like to contribute to MIA, follow these steps:
+
+1. Fork the MIA repository on GitHub.
+
+2. Create a new branch in your local repository to work on your feature or fix.
+
+3. Develop and test your feature or fix in your local repository.
+
+4. Submit a pull request to the original MIA repository, describing your changes and the motivations behind them.
+
+***We welcome your contributions and improvements to make MIA a more powerful and exciting web application.***
+
+## Author:
+
+### Paula Carvajal Nieto
