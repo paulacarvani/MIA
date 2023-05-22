@@ -25,16 +25,13 @@ MIA is a web application developed using React on the frontend, Styled Component
 
 1. Clone the MIA repository to your local machine.
 
-'''
-git clone git@github.com:paulacarvani/mia.git
-'''
+
+    + git clone git@github.com:paulacarvani/mia.git
+
 
 2. Install the dependencies for both the frontend and backend.
 
-'''
-cd mia/client
-npm install
 
-cd ../mia/server
-npm install
-'''
+    + cd mia/client npm install
+
+    + cd ../mia/server npm install
